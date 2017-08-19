@@ -2,7 +2,7 @@
 
 This project is my attempt to run a MongoDB server and manage it with Parse server and a Parse Dashboard that are both hosted from a single node express application.
 
-To install / run;
+To install / run:
 1. Configure and run your own MongoDB server. Add data to it as necessary for your particular project.
 2. Clone this repository to your machine.
 3. Be sure to modify the repository info in package.json before continuing, if you decided to fork your own copy of this repository.
