@@ -14,6 +14,6 @@ To Install / Run
 7. Run **node app.js** along with any desired optional flags and data and you should be ready to go!
 
 Usage
-=====
+-----
 
 Now that you have Parse running, you can interface any projects of yours that use a NoSQL database solution with it for easier commands than with MongoDB alone. Parse Dashboard makes it easier to manage your data with a web-based GUI solution, rather than using lengthy and sometimes repetitive commmand line statements. You can even use parse to manage certain application-specific functionality, like cloud code for running CRON scripts, or setting up push notifications for your mobile app!
