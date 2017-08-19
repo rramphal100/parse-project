@@ -1,0 +1,25 @@
+{
+  "name": "ryan-parse-project",
+  "version": "1.0.0",
+  "description": "Personal project attempt to unify parse dashboard and parse server into a single node / express application. Includes commander and dotenv utilities to pass in configuration via command line args or environment variables (command line takes precedence).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parse",
+    "parse-server",
+    "parse-dashboard",
+    "ryan-parse-project",
+    "ryan-parse"
+  ],
+  "author": "Ryan Ramphal",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "parse-dashboard": "^1.1.0",
+    "parse-server": "^2.5.3"
+  }
+}
