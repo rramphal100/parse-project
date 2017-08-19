@@ -14,6 +14,7 @@
     "ryan-parse"
   ],
   "author": "Ryan Ramphal",
+  "repository": "git@github.com:rramphal100/parse-project.git",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.11.0",
