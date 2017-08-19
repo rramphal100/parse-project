@@ -11,7 +11,6 @@ commander
 	.usage('[options]')
 	.option('--dburl', 'Database URL')
 	.option('--masterkey', 'Parse Master Key')
-	.option('--cloudpath', 'Parse Cloud Code Path')
 	.option('--appid', 'Parse App ID')
 	.option('--parseurl', 'Parse Server URL')
 	.option('--appname', 'Parse Server App Name (appears on Parse dashboard)')
@@ -19,7 +18,7 @@ commander
 
 var parse = new ParseServer({
   databaseURI: commander.dburl || process.env.DATABASE_URL || 'mongodb://localhost:27017/', // Connection string for your MongoDB database
-  //cloud: commander.cloudpath || process.env.CLOUD_CODE_PATH || '/cloud/main.js', // Absolute path to your Cloud Code
+  //cloud: '/cloud/main.js', // Absolute path to your Cloud Code
   appId: commander.appid || process.env.PARSE_APP_ID || 'devserver1',
   masterKey: commander.masterkey || process.env.PARSE_MASTER_KEY || 'oanvAWrvaRVaFVASERAdfBSdfBSRTsrteYnSTbserVS', // Keep this key secret!
   //fileKey: 'optionalFileKey',
