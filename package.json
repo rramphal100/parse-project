@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^2.11.0",
-    "dotenv": "^4.0.0",
+    "dotenv-safe": "^4.0.4",
     "express": "^4.15.4",
     "parse-dashboard": "^1.1.0",
     "parse-server": "^2.5.3"

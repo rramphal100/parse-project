@@ -1,4 +1,4 @@
-var dotenv = require('dotenv').config();
+var dotenv_safe = require('dotenv-safe').load();
 var commander = require('commander');
 var ParseServer = require('parse-server').ParseServer;
 var ParseDashboard = require('parse-dashboard');
