@@ -1,5 +1,6 @@
 Ryan's Parse Project
 ====================
+Project Started: August 18th, 2017
 
 This project is my attempt to run a MongoDB server and manage it with Parse server and a Parse Dashboard that are both hosted from a single node express application.
 
